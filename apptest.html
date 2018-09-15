@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>TODO LIST</title>
+    
+    <link rel="stylesheet" href="1.css" type="text/css" media="screen" charset="utf-8">    
+  </head>
+  <body>
+  <div class="header">
+  <h1 style="padding-top:20px;">MY TODO LIST</h1>
+  </div>
+    <div class="container">
+	 <select class="sel">
+	<option value="select" style="font-size:20px;">Select</option>
+   <option value="shop" style="font-size:20px;">Shopping List</option>
+   <option value="medical" style="font-size:20px;">Medical</option>
+   <option value="other" style="font-size:20px;">Others</option>
+   </select>
+      <p>
+        <label for="new-task">Add Tasks</label><input id="new-task" type="text" placeholder="add tasks..." required><button>Add</button>
+      </p>
+      
+      <h3>Todo</h3>
+      <ul id="incomplete-tasks">
+        </ul>
+      <h3>Complete</h3>
+      <ul id="completed-tasks">
+        
+      </ul>
+    </div>
+    <script type="text/javascript" src="2.js"></script>
+	</body>
+</html>
